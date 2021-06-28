@@ -1,7 +1,7 @@
 # Print-Color
 Print text into a C++ Console using cout and terminal codes to type in color.
 
-## Defining the colors
+### Defining the colors
 ```
 #define RESET   "\033[0m"
 #define BLACK   "\033[30m"
@@ -22,13 +22,13 @@ Print text into a C++ Console using cout and terminal codes to type in color.
 #define BOLDWHITE   "\033[1m\033[37m"
 ```
 
-## How to print text in color
+### How to print text in color
 ```
 std::cout << BLUE << "Hello World!" << RESET << std::endl;
 ```
 If you don't use RESET the color will remain changed until the next time you use a color code.
 
-## How to print different colors in one line
+### How to print different colors in one line
 ```
 std::cout << BLUE << "Hello " << RESET << GREEN << "World!" << RESET << std::endl;
 ```
