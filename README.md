@@ -27,8 +27,10 @@ Print text into a C++ Console using cout and terminal codes to type in color.
 std::cout << BLUE << "Hello World!" << RESET << std::endl;
 ```
 If you don't use RESET the color will remain changed until the next time you use a color code.
+![alt text](https://cdn.discordapp.com/attachments/858527515923185685/859075227199078420/BlueHello.JPG)
 
 ### How to print different colors in one line
 ```
 std::cout << BLUE << "Hello " << RESET << GREEN << "World!" << RESET << std::endl;
 ```
+![alt text](https://cdn.discordapp.com/attachments/858527515923185685/859075228898033674/bluegreenhello.JPG)
